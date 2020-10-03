@@ -6,79 +6,98 @@
   <title>John Doe</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 </head>
+
+<!-- topbar -->
 
 <body>
   <div class="top">
-
+    <input class="search" type="search" name="" value="SEARCH">
   </div>
-  <div class="middle">
-    <table cellspacing="20">
 
-      <td>
-        <h1 id="name">John Doe</h1>
-        <p>
-          <em>Web <strong>developer</strong></em>
-          <br>
-          <br>
-          I am a web developer. I like programming.
-        </p>
-      </td>
-      <td><img id="me" src="images/face.jpg" alt=""></td>
+  <!-- sidebar -->
 
-      <!-- SOCIAL MEDIA LINKS -->
-      <td>
-        <a href="https://ca.linkedin.com/"><img class="linked-img" src="images/001-linkedin.png" alt=""></a>
-        <a href="https://www.whatsapp.com/?lang=en"><img class="linked-img" src="images/002-whatsapp.png" alt=""></a>
-        <a href="https://twitter.com/?lang=en"><img class="linked-img" src="images/004-twitter.png" alt=""></a>
-        <br>
-        <a href="https://www.youtube.com/"><img class="linked-img" src="images/003-youtube.png" alt=""></a>
-        <a href="https://www.instagram.com/?hl=en"><img class="linked-img" src="images/005-instagram.png" alt=""></a>
-        <a href="https://www.facebook.com/"><img class="linked-img" src="images/006-facebook.png" alt=""></a>
-      </td>
-    </table>
-    <hr>
+  <div class="sidebar">
+    <a href="bsod.html"><img id="me" src="images/face.jpg" alt=""></a>
+    <br>
+    <br>
+    <div class="links1">
+      <a href="https://ca.linkedin.com/"><img class="linked-img" src="images/001-linkedin.png" alt=""></a>
+      <a href="https://www.whatsapp.com/?lang=en"><img class="linked-img" src="images/002-whatsapp.png" alt=""></a>
+      <a href="https://twitter.com/?lang=en"><img class="linked-img" src="images/004-twitter.png" alt=""></a>
+    </div>
 
-    <h3>Education</h3>
-    <table class="table">
-      <td>• Kwantlen Polytechnic University</td>
-    </table>
+    <div class="links2">
+      <a href="https://www.youtube.com/"><img class="linked-img" src="images/003-youtube.png" alt=""></a>
+      <a href="https://www.instagram.com/?hl=en"><img class="linked-img" src="images/005-instagram.png" alt=""></a>
+      <a href="https://www.facebook.com/"><img class="linked-img" src="images/006-facebook.png" alt=""></a>
+    </div>
+  </div>
 
-    <hr>
+  <!-- main resume -->
 
-    <h3>Work Experience</h3>
-    <table class="table" cellspacing="10">
-      <thead>
+  <div class="main">
+    <div class="name">
+      <h1>Hi, I'm John Doe</h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <div class="edu">
+      <h2 style="margin: 10px;">Education</h2>
+    </div>
+    <div class="kpu">
+      <h3 style="margin: 10px">Kwantlen University</h3>
+    </div>
+    <div class="edubody">
+      <br>
+      <h4>2017-2021</h4>
+      <p>Fringilla phasellus faucibus scelerisque eleifend donec pretium. Turpis in eu mi bibendum neque egestas congue quisque egestas. Habitant morbi tristique senectus et netus et malesuada fames. Sed id semper risus in. In iaculis nunc sed augue.
+      </p>
+      <div class="mcdub">
+        <h3 style="margin: 10px">McDub Secondary</h3>
+      </div>
+      <br>
+      <h4>2013-2017</h4>
+      <p>Vel turpis nunc eget lorem dolor sed viverra. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Tristique risus nec feugiat in fermentum. Diam sit amet nisl suscipit adipiscing. Sit amet massa vitae tortor condimentum
+        lacinia quis vel.</p>
+    </div>
+    <div class="workex">
+      <h2 style="margin: 10px;">Work Experience</h2>
+    </div>
+    <div class="doof">
+      <h3>Doofenshmirtz Inc.</h3>
+    </div>
+    <div class="workexbody">
+
+      <h4>2021-present</h4>
+      <p>Blandit massa enim nec dui nunc mattis enim. Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet consectetur. Augue mauris augue neque gravida in fermentum et. Sollicitudin ac orci phasellus egestas tellus rutrum tellus.</p>
+    </div>
+
+    <div class="skills">
+      <h2>Programming Languages</h2>
+    </div>
+
+    <!-- skills table -->
+
+    <div class="icons">
+      <table class="table">
         <tr>
-          <th>Dates</th>
-          <th>Work</th>
+          <td><img src="images/003-coding.png" alt=""></td>
+          <td><img src="images/002-website.png" alt=""></td>
         </tr>
-      </thead>
-      <tr>
-        <td>2019-2020</td>
-        <td>Web Developer</td>
-      </tr>
-      <tr>
-        <td>2019-2019</td>
-        <td>Coder</td>
-      </tr>
-    </table>
-
-    <hr>
-
-    <h3>Programming Languages</h3>
-    <table id="lang" cellspacing="10">
-      <tr>
-        <td>HTML</td>
-        <td>Javascript</td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-        <td>Python</td>
-      </tr>
-    </table>
-
+        <tr>
+          <td><img src="images/001-layout.png" alt=""></td>
+          <td><img src="images/004-css.png" alt=""></td>
+        </tr>
+      </table>
+    </div>
   </div>
+
 </body>
 
 </html>
